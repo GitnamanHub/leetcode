@@ -44,6 +44,9 @@ trips[i].length == 3
 //Approach-1 (Using Line Sweep)
 //T.C : O(n)
 //S.C : O(n) to store events in map
+#include<iostream>
+#include<map>
+using namespace std;
 class Solution {
 public:
     bool carPooling(vector<vector<int>>& trips, int capacity) {
@@ -108,6 +111,7 @@ public:
 //Approach-1 (Using Line Sweep)
 //T.C : O(n)
 //S.C : O(n) to store events in map
+/*
 class Solution {
     public boolean carPooling(int[][] trips, int capacity) {
         TreeMap<Integer, Integer> events = new TreeMap<>();
@@ -164,3 +168,4 @@ class Solution {
         return true;
     }
 }
+    */
