@@ -18,3 +18,12 @@ public:
         return ans;
     }
 };
+
+int main() {
+    Solution s;
+    int turnedOn = 1;
+    vector<string> ans = s.readBinaryWatch(turnedOn);
+    for(string str: ans) {
+        cout<<str<<" ";
+    }
+}
