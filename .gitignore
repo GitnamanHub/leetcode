@@ -1,0 +1,20 @@
+# Compiled artifacts
+*.class
+*.out
+*.o
+*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Go
+*.test
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Editors
+.vscode/
+.idea/
